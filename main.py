@@ -11,6 +11,7 @@ from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 from groq import Groq
 from typing import List
+import os
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 options.add_argument('--no-sandbox')
