@@ -19,7 +19,8 @@ options.add_argument("--enable-javascript")
 
 
 img_res: List = []
-client = Groq(api_key="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")
+api=os.environ.get('GROQ_KEY', '')
+client = Groq(api_key=api)
 def get_chat_response(query):
   completion = client.chat.completions.create(
       model="llama3-8b-8192",
