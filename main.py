@@ -128,7 +128,7 @@ async def homepage():
                 </div>
                 <div id="chat-container" class="w-full h-96 border border-gray-300 flex flex-col justify-end overflow-y-auto bg-gray-100 p-4 rounded"></div>
                 <div class="flex w-full mt-2">
-                    <input id="chat-input" class="flex-1 p-2 border border-gray-300 rounded mr-2" type="text" placeholder="Type a message...">
+                    <input id="chat-input" class="flex-1 p-2 border border-gray-300 rounded mr-2" type="text" placeholder="Type a message..">
                     <button class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700" onclick="sendMessage()">Send</button>
                 </div>
             </div>
