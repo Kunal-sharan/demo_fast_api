@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pillow
+pydantic
+beautifulsoup4
+selenium
+groq
+requests
