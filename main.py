@@ -318,11 +318,4 @@ async def send_message(data: Message):
     content = "sorry no success try again"
   # content = url
   return {"status": "success", "message": content}
-# import nest_asyncio
-# from pyngrok import ngrok
-# import uvicorn
-# ngrok.set_auth_token("2nKVwsrIdgmUSKm3Y214lR2dCRs_4D1DoQooZszHELvbDAkia")
-# ngrok_tunnel = ngrok.connect(8000)
-# print('Public URL:', ngrok_tunnel.public_url)
-# nest_asyncio.apply()
-# uvicorn.run(app, port=8000)
+
